@@ -9,7 +9,7 @@ In the current usecase, we will explore how we can use Oracle VB Studio and terr
 4) Define a build job to run the terraform script files from GIT repo to provision the OCI resources
 
 ## VB Studio Access
-* Ensure that you have [access to VB Studio instance].(https://docs.oracle.com/en/cloud/paas/visual-builder/visualbuilder-manage-development-process/basics.html#GUID-F907935C-DE58-41CE-AF3B-5F2DE654AE12)
+* Ensure that you have [access to VB Studio instance](https://docs.oracle.com/en/cloud/paas/visual-builder/visualbuilder-manage-development-process/basics.html#GUID-F907935C-DE58-41CE-AF3B-5F2DE654AE12)
 * Login to the VB Studio to [access the home page](https://docs.oracle.com/en/cloud/paas/visual-builder/visualbuilder-manage-development-process/basics.html#GUID-93A3E6D1-FED5-4AE0-8AF6-7B27E72556E8)
 
 ## Setup VB Studio project
