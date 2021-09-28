@@ -10,7 +10,7 @@ variable "tenancy_ocid" {
 
 #Defines the variable for the compartment name
 variable "compartment_display_name" {
-  default = "vbs_tf_compartment"
+  default = "vbs-tf-compartment"
 }
 
 #Defines a variable for the CIDR block of VCN
@@ -20,12 +20,12 @@ variable "vcn_cidr_block" {
 
 #Defines a variable for the VCN display name
 variable "vcn_display_name" {
-  default = "TestVCN"
+  default = "vbs-tf-vcn"
 }
 
 #Defines a variable for the Internet Gateway display name
 variable "igw_display_name" {
-  default = "vbs_tf_igw"
+  default = "vbs-tf-igw"
 }
 
 
