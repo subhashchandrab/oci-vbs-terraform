@@ -1,12 +1,17 @@
-## Authentication details required for OCI terraform provider. Update these values from the respective OCI tenancy.
+## Authentication details required for OCI terraform provider. 
+
+# Update the below values using the configuration file of the API key created in OCI console
+Update these values from the respective OCI tenancy.
 export TF_VAR_tenancy_ocid="ocid1.tenancy.oc1......."
-export TF_VAR_compartment_ocid="ocid1.compartment.oc1......."
 export TF_VAR_user_ocid="ocid1.user.oc1....."
 export TF_VAR_fingerprint="*****"
-export TF_VAR_region=""
-export TF_VAR_namespace=""
+export TF_VAR_region="eu-frankfurt-1"
 
-##Don't change the below private key path as this path is used in the build script
+# Update the below value same as tenancy OCID 
+export TF_VAR_compartment_ocid="ocid1.tenancy.oc1....."
+
+
+# Don't change the below private key path as this path is used in the build script
 export TF_VAR_private_key_path="~/.terraform.d/oci_api_key_private.pem" 
  
 
