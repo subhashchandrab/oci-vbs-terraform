@@ -8,8 +8,9 @@ variable "tenancy_ocid" {
 
 }
 
-variable "namespace" {
-
+#Defines the variable for the compartment name
+variable "compartment_display_name" {
+  default = "vbs_tf_compartment"
 }
 
 #Defines a variable for the CIDR block of VCN
@@ -46,12 +47,12 @@ variable "public_subnet_cidr" {
 
 #Defines a variable for the display name of public subnet
 variable "public_subnet_display_name" {
-
+  default = "public-subnet"
 }
 
 #Defines a variable for the name of the compute instance
 variable "compute_instance_display_name" {
-
+  default = "vbs-tf-compute-instance" 
 }
 
 #Defines a variable for the compute instance shape
